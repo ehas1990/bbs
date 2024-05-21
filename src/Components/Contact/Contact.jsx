@@ -46,7 +46,7 @@ function Contact() {
                                <h4 className='content-title'>
                                 CONTACT WITH US
                                </h4>
-                               <ul>
+                               <ul className='contact-list'>
                                 <li><a><FaPhoneAlt/><span className='me-4'>+91 9629813469</span></a></li>
                                 <li><a><FaEnvelope/></a><span className='me-4'>info@basicbrushstudio.com</span></li>
                                </ul>
