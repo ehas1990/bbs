@@ -2,6 +2,7 @@ import React,{useEffect} from 'react'
 import AOS from 'aos'
 import'aos/dist/aos.css'
 import { FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 function Contact() {
     useEffect(() => {
         AOS.init();
@@ -46,8 +47,8 @@ function Contact() {
                                 CONTACT WITH US
                                </h4>
                                <ul>
-                                <li><a><FaPhoneAlt/><span className='me-2'>+91 9629813469</span></a></li>
-                                <li><a></a></li>
+                                <li><a><FaPhoneAlt/><span className='me-4'>+91 9629813469</span></a></li>
+                                <li><a><FaEnvelope/></a><span className='me-4'>info@basicbrushstudio.com</span></li>
                                </ul>
                          </div>
                     </div>
