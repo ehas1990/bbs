@@ -198,9 +198,9 @@ textarea {
   font-weight: 400;
 }
 .img-rounded {
-  width: 100%;
+  width: 82%;
   height: 350px;
-  object-fit: contain;
+  /* object-fit: contain; */
 }
 .content-box.mb-2 {
   margin-top: 27% !important;
