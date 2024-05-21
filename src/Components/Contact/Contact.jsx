@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react'
 import AOS from 'aos'
 import'aos/dist/aos.css'
+import { FaPhoneAlt } from "react-icons/fa";
 function Contact() {
     useEffect(() => {
         AOS.init();
@@ -40,7 +41,15 @@ function Contact() {
                          </form>
                     </div>
                     <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"  data-aos="fade-left">
-                        gfgeugi
+                         <div className="contact-box">
+                               <h4 className='content-title'>
+                                CONTACT WITH US
+                               </h4>
+                               <ul>
+                                <li><a><FaPhoneAlt/><span className='me-2'>+91 9629813469</span></a></li>
+                                <li><a></a></li>
+                               </ul>
+                         </div>
                     </div>
             </div>
         </div>
